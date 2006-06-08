@@ -66,3 +66,10 @@ hi Operator   guifg=#408010
 " color of <TAB>s etc...  
 hi SpecialKey guifg=#d8a080 guibg=#e8e8e8 gui=italic  
 
+" Diff
+hi DiffChange guifg=NONE guibg=#e0e0e0 gui=italic,bold
+hi DiffText guifg=NONE guibg=#f0c8c8 gui=italic,bold
+hi DiffAdd guifg=NONE guibg=#c0e0d0 gui=italic,bold
+hi DiffDelete guifg=NONE guibg=#f0e0b0 gui=italic,bold
+
+
